@@ -1,0 +1,17 @@
+.env
+node_modules/
+
+# local env and secrets
+.env
+.env.*
+!.env.example
+
+# generated logs and reports
+log/
+logs/
+errorShots/
+browserstack.err
+*.log
+
+# OS / editor
+.DS_Store
